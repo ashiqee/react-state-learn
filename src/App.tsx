@@ -7,6 +7,7 @@ import CounterWithFuncComponents from './components/CounterWithFuncComponents';
 import UserInfoWithUseReducer from './components/UserInfoWithUseReducer';
 import TodoProvider from './context/TodoProvider';
 import TodoForm from './components/Todo/TodoForm';
+import TodoList from './components/Todo/TodoList';
 
 function App() {
   const [count,setCount]= useState(0)
@@ -19,6 +20,7 @@ function App() {
      {/* <UserInfoWithUseState/> */}
      {/* <UserInfoWithUseReducer/> */}
      <TodoForm/>
+     <TodoList/>
     </div>
     </TodoProvider>
   
